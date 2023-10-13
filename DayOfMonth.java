@@ -1,4 +1,8 @@
 import java.util.Scanner;
+<<<<<<< HEAD
+=======
+
+>>>>>>> feature/day_of_the_month
 public class DayOfMonth {
     public static boolean checkYear(int year) {
         return (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
