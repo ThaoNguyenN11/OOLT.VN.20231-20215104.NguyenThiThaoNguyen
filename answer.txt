@@ -1,0 +1,2 @@
+- Khi người dùng chọn cancel trong hộp thoại sẽ trả về "No".
+- Để tùy chỉnh các tùy chọn cho người dùng có thể sử dụng các phương thức: JOptionPane.setMessageType()
