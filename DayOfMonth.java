@@ -1,6 +1,5 @@
-
 import java.util.Scanner;
-public class DayofMonth {
+public class DayOfMonth {
     public static boolean checkYear(int year) {
         return (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
     }
