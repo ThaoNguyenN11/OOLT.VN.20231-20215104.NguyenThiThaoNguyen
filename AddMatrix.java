@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class AddMatrix {
     public static void main(String[] args) {
-        // Get the matrices from the user or constants
+       
         int[][] matrix1;
         int[][] matrix2;
         Scanner scanner = new Scanner(System.in);
