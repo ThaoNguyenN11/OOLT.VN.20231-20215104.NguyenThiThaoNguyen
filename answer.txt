@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 - Khi người dùng chọn cancel trong hộp thoại sẽ trả về "No".
+=======
+- Khi người dùng chọn cancel trong hộp thoại sẽ trả về "No".
+>>>>>>> 7d2a68cbcb97f9ffc44448f89f80469cbe4bd00c
 - Để tùy chỉnh các tùy chọn cho người dùng có thể sử dụng các phương thức: JOptionPane.setMessageType()
