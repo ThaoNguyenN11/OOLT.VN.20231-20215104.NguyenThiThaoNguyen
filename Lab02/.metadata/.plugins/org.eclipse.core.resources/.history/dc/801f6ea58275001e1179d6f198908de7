@@ -13,10 +13,10 @@ public class Aims {
 		DigitalVideoDisc dvd2 = new DigitalVideoDisc("Star Wars", "Science Fiction", "George Lucas", 97, 24.95f);
 		anOrder.addDigitalVideoDisc(dvd2);
 		
-		DigitalVideoDisc dvd3 = new DigitalVideoDisc("Aladin", "Animation", 18.99f);
+		DigitalVideoDisc dvd3 = new DigitalVideoDisc("Aladin", "Animation"," ", ,18.99f);
 		anOrder.addDigitalVideoDisc(dvd3);
 		
-		anOrder.printCartItems();
+		printCartItems();
 		//print total cost of the items in the cart
 		System.out.println("Total cost is: ");
 		System.out.println(anOrder.totalCost());
