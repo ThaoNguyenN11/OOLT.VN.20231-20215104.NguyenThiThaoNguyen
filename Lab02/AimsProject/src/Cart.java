@@ -16,6 +16,21 @@ public class Cart {
 			System.out.println("The cart is almost full");
 	}
 	
+	//overloding by differing types of parameter 14.1
+	public void addDigitalVideoDisc(DigitalVideoDisc [] dvdList){
+		for(int i = 0; i < dvdList.length; i++) {
+			if(qtyOrdered < MAX_NUMBERS_ORDERED) {
+				itemsOrderedList.add(dvdList[i]);
+				System.out.println("The disc " + dvdList[i].getTitle() + " has been added");
+				qtyOrdered = itemsOrderedList.size();
+			}
+			else System.out.println("The cart is almost full");
+		}
+	}
+	
+	//overloading by differing the number of parameter
+	
+	
 	//remove the item from the list
 	public void removeDigitalVideoDisc(DigitalVideoDisc disc) {
 		itemsOrderedList.remove(disc);

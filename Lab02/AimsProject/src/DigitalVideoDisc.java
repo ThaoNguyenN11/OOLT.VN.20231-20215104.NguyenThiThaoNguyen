@@ -6,7 +6,11 @@ public class DigitalVideoDisc {
     private String director;
     private int length;
     private float cost;
-
+    
+    public DigitalVideoDisc( String title) {
+		super();
+		this.title = title;
+    }
     public DigitalVideoDisc( String category,String title, float cost) {
 		super();
 		this.title = title;
