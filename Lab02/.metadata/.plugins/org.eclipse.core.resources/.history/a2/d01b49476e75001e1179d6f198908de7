@@ -1,0 +1,13 @@
+
+public class Aims {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+<<<<<<< HEAD
+
+=======
+	
+>>>>>>> ae40c4c (Section 7, 8, 9, 10)
+	}
+
+}
