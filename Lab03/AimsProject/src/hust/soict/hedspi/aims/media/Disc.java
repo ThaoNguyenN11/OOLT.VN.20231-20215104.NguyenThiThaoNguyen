@@ -1,6 +1,6 @@
 package hust.soict.hedspi.aims.media;
 
-public abstract class Disc extends Media{
+public class Disc extends Media{
 	private int length;
 	private String director;
 	public Disc(int id, String title, String category, float cost, int length, String director) {
