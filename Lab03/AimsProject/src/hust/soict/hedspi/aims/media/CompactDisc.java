@@ -5,6 +5,11 @@ public class CompactDisc extends Disc  implements Playable {
 	private String artist;
 	private ArrayList<Track> tracks = new ArrayList<Track>();
 	
+	public CompactDisc(int id, String title, String category, float cost, int 
+			length, String director) {
+			super(id, title, category, cost, length, director);
+			// TODO Auto-generated constructor stub
+			}
 	public String getArtist() {
 		return artist;
 	}
