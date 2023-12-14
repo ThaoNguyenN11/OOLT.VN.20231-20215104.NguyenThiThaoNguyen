@@ -1,0 +1,20 @@
+Reading Assignment: 
+- What are the advantages of Polymorphism?
+Helps programmers reuse the code and classes once written, tested and implemented.
+Single variable name can be used to store variables of multiple data types.
+Reducing the coupling between different functionalities
+
+- How is Inheritance useful to achieve Polymorphism in Java?
+Inherit methods from their parent classes, and override those methods to provide their own specific implementations.
+
+- What are the differences between Polymorphism and Inheritance in Java?
+Polymorphism allows the programmer to write multiple definitions of a function. At the same time, inheritance enables the user to reuse the already written code.
+
+Question:
+- What class should implement the Comparable interface? 
+- In those classes, how should you implement the compareTo()method to reflect the ordering that
+we want?
+- Can we have two ordering rules of the item (by title then cost and by cost then title) if we use this
+Comparable interface approach?
+- Suppose the DVDs have a different ordering rule from the other media types, that is by title, then
+decreasing length, then cost. How would you modify your code to allow this?
