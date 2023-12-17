@@ -36,4 +36,17 @@ public class Cart {
             System.out.println(i + 1 + itemsOrdered.get(i).getTitle()  +itemsOrdered.get(i).getCost());
         }
     }
+
+    //method overloading
+    public void addDigitalVideoDisc(DigitalVideoDisc[] dvdList){
+        for(DigitalVideoDisc disc : dvdList){
+            addDigitalVideoDisc(disc);
+        }
+        System.out.println("DVDs has been added to the cart");
+    }
+
+    public void addDigitalVideoDisc(DigitalVideoDisc dvd1, DigitalVideoDisc dvd2){
+        addDigitalVideoDisc(dvd2);
+        addDigitalVideoDisc(dvd2);
+    }
 }
