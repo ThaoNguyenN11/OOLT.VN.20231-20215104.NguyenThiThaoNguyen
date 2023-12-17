@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e94707fd-bec9-4d1e-9096-05aba0c4db37" name="Changes" comment="" />
+    <list default="true" id="e94707fd-bec9-4d1e-9096-05aba0c4db37" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DigitalVideoDisc.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +34,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Rebasing topic/passing-parameter",
+    "git-widget-placeholder": "Rebasing topic/classifier-and-instance-member",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -51,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702778018411</updated>
-      <workItem from="1702778019720" duration="305000" />
+      <workItem from="1702778019720" duration="698000" />
     </task>
     <servers />
   </component>
