@@ -4,6 +4,7 @@ public class DigitalVideoDisc {
     private String director;
     private int length;
     private float cost;
+
     //classifier member and instance member
 
     private static int nbDigitalVideoDisc = 0;
@@ -22,6 +23,7 @@ public class DigitalVideoDisc {
         id = getNbDigitalVideoDisc();
         nbDigitalVideoDisc++;
     }
+
 
     public DigitalVideoDisc(String title){
         super();
@@ -91,4 +93,7 @@ public class DigitalVideoDisc {
     public void setCost(float cost) {
         this.cost = cost;
     }
+
 }
+
+
