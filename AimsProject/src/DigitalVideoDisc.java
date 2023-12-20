@@ -3,6 +3,24 @@ public class DigitalVideoDisc {
     private String category;
     private String director;
     private int length;
+    //classifier member and instance member
+
+    private static int nbDigitalVideoDisc = 0;
+    private int id;
+    public int getId(){
+        return id;
+    }
+    public DigitalVideoDisc(){
+        nbDigitalVideoDisc++;
+        id = nbDigitalVideoDisc;
+    }
+    public int getNbDigitalVideoDisc(){
+        return nbDigitalVideoDisc;
+    }
+    pubic void setId(){
+        id = getNbDigitalVideoDisc();
+        nbDigitalVideoDisc++;
+    }
     public DigitalVideoDisc(String title){
         super();
         this.title = title;
