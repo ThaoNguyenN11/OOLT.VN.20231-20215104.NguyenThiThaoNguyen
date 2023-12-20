@@ -17,6 +17,13 @@ public class Aims {
         System.out.println("Total cost is: ");
         System.out.println(anOrder.totalCost());
 
-    }
 
+        DigitalVideoDisc[] dvdList = {dvd1, dvd2, dvd3};
+        anOrder.addDigitalVideoDisc(dvdList);
+
+        anOrder.addDigitalVideoDisc(dvd1, dvd2);
+
+        anOrder.printCartItems();
+
+    }
 }
