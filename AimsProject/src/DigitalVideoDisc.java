@@ -3,10 +3,68 @@ public class DigitalVideoDisc {
     private String category;
     private String director;
     private int length;
+    public DigitalVideoDisc(String title){
+        super();
+        this.title = title;
+    }
+
+    public DigitalVideoDisc(String category, String title, float cost){
+        super();
+        this.category = category;
+        this.title = title;
+        this.cost = cost;
+    }
+
+    public DigitalVideoDisc(String director, String category, String title, float cost){
+        super();
+        this.director = director;
+        this.category = category;
+        this.title = title;
+        this.cost = cost;
+    }
+
+    public DigitalVideoDisc(String director, String category, String title, int length, float cost){
+        super();
+        this.director = director;
+        this.category = category;
+        this.title = title;
+        this.cost = cost;
+        this.length = length;
+    }
+
 
     public java.lang.String getTitle() {
         return title;
     }
+    public DigitalVideoDisc(String title){
+        super();
+        this.title = title;
+    }
+
+    public DigitalVideoDisc(String category, String title, float cost){
+        super();
+        this.category = category;
+        this.title = title;
+        this.cost = cost;
+    }
+
+    public DigitalVideoDisc(String director, String category, String title, float cost){
+        super();
+        this.director = director;
+        this.category = category;
+        this.title = title;
+        this.cost = cost;
+    }
+
+    public DigitalVideoDisc(String director, String category, String title, int length, float cost){
+        super();
+        this.director = director;
+        this.category = category;
+        this.title = title;
+        this.cost = cost;
+        this.length = length;
+    }
+
 
     public void setTitle(java.lang.String title) {
         this.title = title;
