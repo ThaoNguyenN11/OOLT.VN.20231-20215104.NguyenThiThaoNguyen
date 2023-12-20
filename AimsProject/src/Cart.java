@@ -33,5 +33,18 @@ public class Cart {
         addDigitalVideoDisc(dvd2);
         addDigitalVideoDisc(dvd2);
     }
+    //calculate total cost in the cart
+    public float totalCost() {
+        for(int i = 0; i < itemsOrdered.size(); i++) {
+            totalCost += itemsOrdered.get(i).getCost();
+        }
+        return totalCost;
+    }
+
+    public void printCartItems() {
+        for(int i = 0; i < itemsOrdered.size(); i++) {
+            System.out.println(i + 1 + itemsOrdered.get(i).getTitle()  +itemsOrdered.get(i).getCost());
+        }
+    }
 
 }
