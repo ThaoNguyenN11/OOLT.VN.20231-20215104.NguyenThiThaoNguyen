@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a409cc9-9d07-4855-96c1-a521cd842519" name="Changes" comment="" />
+    <list default="true" id="1a409cc9-9d07-4855-96c1-a521cd842519" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Lab03/AimsProject/src/hust/soict/hedspi/aims/cart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab03/AimsProject/src/hust/soict/hedspi/aims/cart/Cart.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +100,7 @@
       <workItem from="1703076046116" duration="2839000" />
       <workItem from="1703079636548" duration="1075000" />
       <workItem from="1703215288102" duration="166000" />
-      <workItem from="1703215513538" duration="9175000" />
+      <workItem from="1703215513538" duration="9744000" />
     </task>
     <servers />
   </component>
