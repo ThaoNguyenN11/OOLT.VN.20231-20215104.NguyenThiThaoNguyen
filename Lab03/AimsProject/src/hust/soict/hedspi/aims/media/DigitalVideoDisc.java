@@ -1,12 +1,17 @@
-public class DigitalVideoDisc {
-    private String title;
-    private String category;
+package hust.soict.hedspi.aims.media;
+
+public class DigitalVideoDisc extends Media{
+
     private String director;
     private int length;
     //classifier member and instance member
 
     private static int nbDigitalVideoDisc = 0;
-    private int id;
+
+    public static void setNbDigitalVideoDisc(int nbDigitalVideoDisc) {
+        DigitalVideoDisc.nbDigitalVideoDisc = nbDigitalVideoDisc;
+    }
+
     public int getId(){
         return id;
     }
