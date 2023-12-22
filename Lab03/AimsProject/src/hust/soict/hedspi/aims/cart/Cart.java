@@ -1,3 +1,7 @@
+package hust.soict.hedspi.aims.cart;
+
+import hust.soict.hedspi.aims.media.DigitalVideoDisc;
+
 import java.util.ArrayList;
 public class Cart {
     public static final int MAX_NUMBERS_ORDERED = 20;
@@ -47,4 +51,37 @@ public class Cart {
         }
     }
 
+    //print list of ordered
+    public void printCart(){
+        System.out.println("********************CART******************");
+        System.out.println("Ordered Items: ");
+        for(int i < 0; i < qtyOrdered; i++){
+            DigitalVideoDisc dvd = itemsOrdered.get(i);
+            System.out.printf("%d. DVD - %s - %s - %s - %d minutes: %.2f $\n", i +1, dvd.getTitle(), dvd.getCategory(), dvd.getDirector(), dvd.getLength(), dvd.getCost());
+        }
+        float totalCost = totalCost();
+        System.out.printf("Total cost: %.2f $\n", totalCost);
+    }
+
+    //search by id
+    public boolean searchID(int id){
+        int n = qtyOrdered;
+        for(int i = 0; i < n; i++){
+            if(itemsOrdered.get(i).getId() == id){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    //search by title
+    public boolean searchTitle(String title){
+        int n = qtyOrdered;
+        for(int i = 0; i < n; i++){
+            if(itemsOrdered.get(i).getTitle() == title){
+                return true;
+            }
+            return false;
+        }
+    }
 }
