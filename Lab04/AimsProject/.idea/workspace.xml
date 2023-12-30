@@ -54,12 +54,21 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\New folder\Project\Lab04" />
       <recent name="D:\New folder\Project" />
       <recent name="D:\New folder\Project\Lab02" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,7 +101,6 @@
       <workItem from="1703079636548" duration="1075000" />
       <workItem from="1703215288102" duration="166000" />
       <workItem from="1703288102426" duration="569000" />
-      <workItem from="1703674449731" duration="1241000" />
     </task>
     <servers />
   </component>
